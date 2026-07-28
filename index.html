@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Shah Mobile & Accessories — Pakistan's trusted mobile phone and accessories store. Best prices on iPhones, Samsung, Xiaomi, earbuds, power banks & more.">
+  <meta name="keywords"
+    content="mobile phones Pakistan, iphone price Pakistan, samsung galaxy, accessories, shah Mobiles">
+  <title>Shah Mobiles & Accessories khall — Best Mobiles & Accessories in khall dir lower</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span>📞 0319-7906166</span>
+        <span>✉️ info@shahmobile.pk</span>
+        <span>🕒 Mon–Sat: 9am – 9pm</span>
+      </div>
+      <div class="topbar-right">
+        <a href="order-tracking.html">📦 Track Order</a>
+        <button class="lang-toggle" data-lang-toggle>اردو</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="mainNavbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <div class="logo-icon">📱</div>
+        Shah <span> Mobiles main bazar khall</span>
+      </a>
+
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="index.html" class="nav-link active" data-i18n="home">Home</a></li>
+        <li class="nav-item has-mega">
+          <a href="products.html" class="nav-link" data-i18n="shop">Shop ▾</a>
+          <div class="mega-menu">
+            <div class="mega-menu-grid">
+              <div class="mega-col">
+                <h6>Smartphones</h6>
+                <a href="products.html?cat=iphones">🍎 iPhones</a>
+                <a href="products.html?cat=android">🤖 Android Phones</a>
+                <a href="products.html?cat=tablets">📟 Tablets</a>
+              </div>
+              <div class="mega-col">
+                <h6>Wearables & Audio</h6>
+                <a href="products.html?cat=smartwatches">⌚ Smartwatches</a>
+                <a href="products.html?cat=earbuds">🎧 Earbuds & Headphones</a>
+                <a href="products.html?cat=speakers">🔊 Speakers</a>
+              </div>
+              <div class="mega-col">
+                <h6>Accessories</h6>
+                <a href="products.html?cat=chargers">🔌 Chargers & Cables</a>
+                <a href="products.html?cat=cases">🛡️ Phone Cases</a>
+                <a href="products.html?cat=powerbanks">🔋 Power Banks</a>
+                <a href="products.html?cat=memory">💾 Memory Cards</a>
+                <a href="products.html?cat=gaming">🎮 Gaming</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item"><a href="about.html" class="nav-link" data-i18n="about">About</a></li>
+        <li class="nav-item"><a href="blog.html" class="nav-link" data-i18n="blog">Blog</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link" data-i18n="contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar-actions">
+        <button class="nav-icon-btn" data-search-open title="Search (Ctrl+K)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+        <a href="wishlist.html" class="nav-icon-btn" id="wishlistBtn" title="Wishlist">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+          <span class="nav-badge wishlist-count" style="display:none">0</span>
+        </a>
+        <a href="cart.html" class="nav-icon-btn" data-cart-icon title="Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1" />
+            <circle cx="20" cy="21" r="1" />
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+          </svg>
+          <span class="nav-badge cart-count" style="display:none">0</span>
+        </a>
+        <a href="login.html" class="nav-icon-btn" id="accountBtn" title="Account">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+        </a>
+        <button class="theme-toggle" data-theme-toggle title="Toggle Dark Mode">
+          <span class="theme-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </span>
+        </button>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html" class="mobile-nav-link">🏠 Home</a>
+    <a href="products.html?cat=smartphones" class="mobile-nav-link">📱 Smartphones</a>
+    <a href="products.html?cat=iphones" class="mobile-nav-link">🍎 iPhones</a>
+    <a href="products.html?cat=earbuds" class="mobile-nav-link">🎧 Earbuds</a>
+    <a href="products.html?cat=chargers" class="mobile-nav-link">🔌 Chargers</a>
+    <a href="products.html?cat=powerbanks" class="mobile-nav-link">🔋 Power Banks</a>
+    <a href="products.html" class="mobile-nav-link">🛍️ All Products</a>
+    <a href="about.html" class="mobile-nav-link">ℹ️ About Us</a>
+    <a href="contact.html" class="mobile-nav-link">📞 Contact</a>
+    <a href="blog.html" class="mobile-nav-link">📝 Blog</a>
+    <div style="padding:16px;border-top:1px solid var(--border);display:flex;gap:12px;margin-top:8px">
+      <a href="login.html" class="btn btn-primary" style="flex:1">Login / Register</a>
+      <button class="btn btn-outline" data-theme-toggle style="flex:0">🌙</button>
+    </div>
+  </div>
+
+  <!-- SEARCH OVERLAY -->
+  <div class="search-overlay" id="searchOverlay">
+    <div style="width:100%;max-width:680px;padding:0 16px;position:relative">
+      <form class="search-box" id="searchForm">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          style="color:var(--text-3);flex-shrink:0">
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+        <input type="text" id="searchInput" data-i18n-placeholder="search_placeholder"
+          placeholder="Search mobiles, accessories..." autocomplete="off">
+        <button type="submit" class="btn btn-primary btn-sm">Search</button>
+        <button type="button" onclick="document.getElementById('searchOverlay').classList.remove('open')"
+          style="background:none;color:var(--text-3);font-size:1.3rem;padding:4px 8px">×</button>
+      </form>
+      <div id="searchResults" class="search-results" style="display:none"></div>
+    </div>
+  </div>
+
+  <!-- PROMO BANNER -->
+  <div class="promo-banner">
+    🔥 <strong>MEGA SALE!</strong> Up to 40% off on Smartphones & Accessories — Offer ends in:
+    <div class="countdown">
+      <div class="countdown-item"><span data-countdown-h>00</span><span class="countdown-label">HRS</span></div>:
+      <div class="countdown-item"><span data-countdown-m>00</span><span class="countdown-label">MIN</span></div>:
+      <div class="countdown-item"><span data-countdown-s>00</span><span class="countdown-label">SEC</span></div>
+    </div>
+  </div>
+
+  <!-- HERO SLIDER -->
+  <section class="hero-slider">
+    <div class="hero-slides">
+      <div class="hero-slide">
+        <div class="hero-slide-bg" style="background-image:url('assets/images/hero1.png')"></div>
+        <div class="hero-slide-content animate-fadeInLeft">
+          <span class="badge badge-gold">🔥 UP TO 40% OFF</span>
+          <h1>Latest <span class="gradient-text">Smartphones</span> 2024</h1>
+          <p>Get the best iPhones, Samsung Galaxy & Xiaomi phones at unbeatable prices. Free delivery on orders over Rs.
+            10,000.</p>
+          <div class="hero-slide-btns">
+            <a href="products.html?cat=smartphones" class="btn btn-primary btn-xl">Shop Smartphones</a>
+            <a href="products.html" class="btn btn-outline-white btn-xl">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-slide-bg" style="background-image:url('assets/images/hero2.png')"></div>
+        <div class="hero-slide-content">
+          <span class="badge badge-primary">✨ NEW ARRIVALS</span>
+          <h1>Premium <span class="gradient-text">Accessories</span></h1>
+          <p>Explore our wide range of earbuds, chargers, power banks and more. Starting from just Rs. 599.</p>
+          <div class="hero-slide-btns">
+            <a href="products.html?cat=earbuds" class="btn btn-accent btn-xl">Shop Accessories</a>
+            <a href="products.html?cat=powerbanks" class="btn btn-outline-white btn-xl">Power Banks</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-slide-bg" style="background-image:url('assets/images/hero3.png')"></div>
+        <div class="hero-slide-content">
+          <span class="badge badge-hot">🎮 GAMING</span>
+          <h1>Tablets & <span class="gradient-text">Gaming</span> Gear</h1>
+          <p>Level up with Samsung Galaxy Tabs, gaming controllers, and accessories built for champions.</p>
+          <div class="hero-slide-btns">
+            <a href="products.html?cat=tablets" class="btn btn-primary btn-xl">Shop Tablets</a>
+            <a href="products.html?cat=gaming" class="btn btn-gold btn-xl">Gaming Gear</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-arrows">
+      <button class="hero-arrow hero-prev">&#8592;</button>
+      <button class="hero-arrow hero-next">&#8594;</button>
+    </div>
+    <div class="hero-controls">
+      <div class="hero-dot active"></div>
+      <div class="hero-dot"></div>
+      <div class="hero-dot"></div>
+    </div>
+  </section>
+
+  <!-- QUICK STATS BAR -->
+  <div style="background:var(--surface);border-bottom:1px solid var(--border)">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);padding:20px 0;text-align:center;gap:16px">
+        <div style="display:flex;align-items:center;justify-content:center;gap:10px">
+          <span style="font-size:1.5rem">🚚</span>
+          <div style="text-align:left">
+            <div style="font-weight:700;font-size:.875rem">Free Delivery</div>
+            <div style="font-size:.75rem;color:var(--text-3)">On orders over Rs.10,000</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:center;gap:10px">
+          <span style="font-size:1.5rem">🔒</span>
+          <div style="text-align:left">
+            <div style="font-weight:700;font-size:.875rem">Secure Payment</div>
+            <div style="font-size:.75rem;color:var(--text-3)">100% protected transactions</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:center;gap:10px">
+          <span style="font-size:1.5rem">✅</span>
+          <div style="text-align:left">
+            <div style="font-weight:700;font-size:.875rem">Genuine Products</div>
+            <div style="font-size:.75rem;color:var(--text-3)">100% authentic & warranted</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:center;gap:10px">
+          <span style="font-size:1.5rem">🔄</span>
+          <div style="text-align:left">
+            <div style="font-weight:700;font-size:.875rem">Easy Returns</div>
+            <div style="font-size:.75rem;color:var(--text-3)">7-day return policy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Browse by Category</span>
+        <h2>Shop by <span class="gradient-text">Category</span></h2>
+        <p>Find exactly what you're looking for from our wide range of mobile phones and accessories</p>
+      </div>
+      <div class="grid-5" id="categoryGrid"></div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="section" style="background:var(--surface-2)" id="featuredSection">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle" data-i18n="featured">Featured Products</span>
+        <h2>Hand-Picked <span class="gradient-text">For You</span></h2>
+        <p>Our team's top recommendations across all categories</p>
+      </div>
+      <div class="grid-4" id="featuredGrid"></div>
+      <div class="text-center mt-3">
+        <a href="products.html" class="btn btn-outline btn-lg">View All Products →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEST SELLERS -->
+  <section class="section" id="bestSellers">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle" data-i18n="bestsellers">Best Sellers</span>
+        <h2>Most <span class="gradient-text">Popular</span> This Month</h2>
+        <p>Loved by thousands of customers across Pakistan</p>
+      </div>
+      <div class="grid-4" id="bestSellersGrid"></div>
+    </div>
+  </section>
+
+  <!-- PROMO BANNER STRIP -->
+  <section style="background:linear-gradient(135deg,var(--primary-dark),var(--primary));padding:60px 0">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center">
+        <div>
+          <p
+            style="color:rgba(255,255,255,.7);font-size:.875rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.1em">
+            Limited Time Offer</p>
+          <h2 style="color:#fff;margin-bottom:12px">Get <span style="color:var(--accent)">iPhone 15 Pro</span> —
+            Pakistan's Best Price Guarantee</h2>
+          <p style="color:rgba(255,255,255,.8);margin-bottom:24px">If you find a lower price anywhere, we'll match it.
+            Plus free delivery and 1 year warranty.</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a href="products.html?cat=iphones" class="btn btn-gold btn-lg">Shop iPhones</a>
+            <a href="contact.html" class="btn btn-outline-white btn-lg">Price Match</a>
+          </div>
+        </div>
+        <div style="font-size:8rem;opacity:.4">📱</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW ARRIVALS -->
+  <section class="section" style="background:var(--surface-2)">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle" data-i18n="new_arrivals">New Arrivals</span>
+        <h2>Just <span class="gradient-text">Arrived</span> in Store</h2>
+        <p>The latest additions to our catalog — be the first to grab them!</p>
+      </div>
+      <div class="grid-4" id="newArrivalsGrid"></div>
+    </div>
+  </section>
+
+  <!-- BRANDS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Our Brands</span>
+        <h2>Trusted <span class="gradient-text">Brands</span> We Carry</h2>
+      </div>
+      <div class="grid-5" id="brandsGrid"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section" style="background:var(--surface-2)">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Customer Reviews</span>
+        <h2>What Our <span class="gradient-text">Customers</span> Say</h2>
+        <p>Real reviews from real customers across Pakistan</p>
+      </div>
+      <div class="grid-3" id="testimonialsGrid"></div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="section-header reveal" style="margin-bottom:24px">
+        <h2>📬 Subscribe for Exclusive Deals</h2>
+        <p>Get the latest mobile offers, new arrivals, and tech news delivered to your inbox. No spam, unsubscribe
+          anytime.</p>
+      </div>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" required>
+        <button class="btn btn-gold btn-lg" type="submit">Subscribe Now</button>
+      </form>
+      <p style="color:rgba(255,255,255,.5);font-size:.8rem;margin-top:12px">🔒 We respect your privacy. Unsubscribe
+        anytime.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <div class="logo-icon"
+              style="width:36px;height:36px;border-radius:8px;background:linear-gradient(135deg,#1A73E8,#00C6FF);display:flex;align-items:center;justify-content:center;color:#fff">
+              📱</div>
+            Shah Mobile & Accessories
+          </div>
+          <p class="footer-about">Your trusted destination for genuine mobile phones and accessories. We offer
+            competitive prices, warranty on all products, and excellent after-sales service.</p>
+          <div class="footer-social">
+            <a href="#" class="social-btn" title="Facebook">f</a>
+            <a href="https://wa.me/923197906166" class="social-btn" title="WhatsApp">W</a>
+            <a href="#" class="social-btn" title="Instagram">📷</a>
+            <a href="#" class="social-btn" title="YouTube">▶</a>
+          </div>
+        </div>
+        <div>
+          <h5 class="footer-heading">Quick Links</h5>
+          <div class="footer-links">
+            <a href="index.html">🏠 Home</a>
+            <a href="products.html">🛍️ Shop</a>
+            <a href="about.html">ℹ️ About Us</a>
+            <a href="contact.html">📞 Contact</a>
+            <a href="blog.html">📝 Blog</a>
+            <a href="order-tracking.html">📦 Track Order</a>
+          </div>
+        </div>
+        <div>
+          <h5 class="footer-heading">Categories</h5>
+          <div class="footer-links">
+            <a href="products.html?cat=iphones">🍎 iPhones</a>
+            <a href="products.html?cat=android">🤖 Android</a>
+            <a href="products.html?cat=smartwatches">⌚ Smartwatches</a>
+            <a href="products.html?cat=earbuds">🎧 Earbuds</a>
+            <a href="products.html?cat=powerbanks">🔋 Power Banks</a>
+            <a href="products.html?cat=cases">🛡️ Phone Cases</a>
+          </div>
+        </div>
+        <div>
+          <h5 class="footer-heading">Contact Us</h5>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <span>0319-7906166 (Taimoor)<br>0311-9393436 (Hamza)</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <span>info@shahmobile.pk</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span>Shah Mobile & Accessories, Pakistan</span>
+          </div>
+          <a href="https://wa.me/923197906166" class="btn btn-whatsapp btn-sm mt-2" style="display:inline-flex">
+            💬 Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Shah Mobile & Accessories. All rights reserved.</span>
+        <div style="display:flex;gap:16px">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="admin/index.html">Admin</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP WIDGET -->
+  <div class="whatsapp-widget">
+    <button class="whatsapp-btn" title="Chat on WhatsApp">💬</button>
+    <div class="whatsapp-tooltip">Chat with us!</div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" title="Back to top">↑</button>
+
+  <!-- SCRIPTS -->
+  <script src="js/store.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/wishlist.js"></script>
+  <script src="js/ui.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Hamburger
+      const hamburger = document.getElementById('hamburger');
+      const mobileNav = document.getElementById('mobileNav');
+      hamburger?.addEventListener('click', () => {
+        hamburger.classList.toggle('open');
+        mobileNav.classList.toggle('open');
+        document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+      });
+
+      // Render Categories
+      const catGrid = document.getElementById('categoryGrid');
+      if (catGrid) {
+        catGrid.innerHTML = STORE.categories.map(c => `
+      <a href="products.html?cat=${c.id}" class="category-card reveal">
+        <div class="category-icon">${c.icon}</div>
+        <div class="category-name">${c.name}</div>
+        <div class="category-count">${c.count} products</div>
+      </a>
+    `).join('');
+      }
+
+      // Render Featured
+      const featuredGrid = document.getElementById('featuredGrid');
+      if (featuredGrid) {
+        featuredGrid.innerHTML = STORE.getFeatured().slice(0, 8).map(p => UI.renderProductCard(p)).join('');
+        UI.initReveal();
+      }
+
+      // Render Best Sellers
+      const bsGrid = document.getElementById('bestSellersGrid');
+      if (bsGrid) {
+        bsGrid.innerHTML = STORE.getBestSellers().slice(0, 8).map(p => UI.renderProductCard(p)).join('');
+      }
+
+      // Render New Arrivals
+      const naGrid = document.getElementById('newArrivalsGrid');
+      if (naGrid) {
+        naGrid.innerHTML = STORE.getNewArrivals().slice(0, 8).map(p => UI.renderProductCard(p)).join('');
+      }
+
+      // Render Brands
+      const brandsGrid = document.getElementById('brandsGrid');
+      if (brandsGrid) {
+        brandsGrid.innerHTML = STORE.brands.map(b => `
+      <a href="products.html?brand=${b}" class="brand-card reveal">${b}</a>
+    `).join('');
+      }
+
+      // Render Testimonials
+      const testiGrid = document.getElementById('testimonialsGrid');
+      if (testiGrid) {
+        testiGrid.innerHTML = STORE.testimonials.map(t => `
+      <div class="testimonial-card reveal">
+        <div class="testimonial-quote">❝</div>
+        <div class="stars">${'★'.repeat(t.rating)}</div>
+        <p class="testimonial-text">${t.text}</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">${t.initials}</div>
+          <div>
+            <div class="testimonial-name">${t.name}</div>
+            <div class="testimonial-role">📍 ${t.city}</div>
+          </div>
+        </div>
+      </div>
+    `).join('');
+      }
+
+      UI.initReveal();
+    });
+  </script>
+</body>
+
+</html>
